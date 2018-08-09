@@ -1,5 +1,5 @@
 {
-  "name": "wallejs",
+  "name": "walle.js",
   "version": "0.1.0",
   "description": "A web framework base on egg.js",
   "dependencies": {

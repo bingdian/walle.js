@@ -7,14 +7,14 @@ class HomeController extends Controller {
     const { ctx } = this;
 
     await ctx.render('index.html', {
-      username: 'walle',
+      username: 'walle'
     });
   }
 
   async string() {
     const { ctx } = this;
     ctx.body      = await ctx.renderString('Hi, {{username}}', {
-      username: 'walle',
+      username: 'walle'
     });
   }
 
@@ -22,7 +22,7 @@ class HomeController extends Controller {
     const { ctx } = this;
 
     await ctx.render('/sjs', {
-      foo: '"hello\'\\()<>.',
+      foo: '"hello\'\\()<>.'
     });
   }
 
@@ -30,7 +30,7 @@ class HomeController extends Controller {
     const { ctx } = this;
 
     await ctx.render('/shtml', {
-      foo: '<img onload="xx"><h1>foo</h1>',
+      foo: '<img onload="xx"><h1>foo</h1>'
     });
   }
 
@@ -38,7 +38,7 @@ class HomeController extends Controller {
     const { ctx } = this;
 
     await ctx.render('/surl.html', {
-      url: 'http://ww.safe.com<script>\</script>',
+      url: 'http://ww.safe.com<script>\</script>'
     });
   }
 }

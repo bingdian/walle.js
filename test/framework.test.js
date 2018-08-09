@@ -8,7 +8,7 @@ describe('test/framework.test.js', () => {
     before(() => {
       app = mock.app({
         baseDir: 'apps/framework',
-        framework: true,
+        framework: true
       });
       return app.ready();
     });
@@ -30,7 +30,7 @@ describe('test/framework.test.js', () => {
     before(() => {
       app = mock.app({
         baseDir: 'apps/view',
-        framework: true,
+        framework: true
       });
       return app.ready();
     });

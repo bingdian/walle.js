@@ -1,6 +1,7 @@
 {
   "extends": "eslint-config-egg",
   "rules": {
-    "no-multi-spaces": 0
+    "no-multi-spaces": 0,
+    "comma-dangle": ["error", "never"]
   }
 }

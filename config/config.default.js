@@ -7,8 +7,8 @@ module.exports = () => {
     defaultViewEngine: 'nunjucks',
     mapping: {
       '.nj': 'nunjucks',
-      '.html': 'nunjucks',
-    },
+      '.html': 'nunjucks'
+    }
   };
 
   return exports;
